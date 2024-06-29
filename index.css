@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.background-img{
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.continer-sec1{
+    width: 1400px;
+    margin: auto;
+}
+
+.nav{
+width: 1400px;
+    position: absolute;
+    top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-lift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-lift a{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav-lift a:hover{
+    color: rgb(89, 18, 155);
+    text-decoration: underline;
+}
+
+.sec1 .nav-lift img{
+    width: 150px;
+}
+.continer-sec1 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+}
+.continer-sec1 button a{
+    text-decoration: none;
+}
+.sec1 .contain-deliver{
+    width: 1400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    top:80px
+}
+
+.sec1 .deliver{
+    width: 700px;
+
+}
+.sec1 .contain-deliver h1{
+    font-size: 55px;
+    color: rgb(97, 96, 96);
+}
+.sec1 .contain-deliver span{
+    color: rgb(107, 49, 161);
+    text-transform: capitalize;
+
+}
+.sec1 .contain-deliver p{
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgb(151, 136, 136);
+}
+
+
+
+
+
+
+
+
+
+.sec1 .continer-img{
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+.sec1 .continer-img .background{
+    width: 650px;
+    position: absolute;
+    top:-37px;
+
+}
+.sec1 .continer-img .man{
+    width:300px;
+    position: absolute;
+top:-40px;
+right: 258px;
+}
+.sec1 .continer-img .clouds{
+    position: absolute;
+    top:334px;
+    right: 226px;
+    width: 350px;
+
+}
+.sec1 .waves{
+    width: 1200px;
+    position: absolute;
+    bottom: -30px;
+    left: -122px;
+}
+/* end section 1 */
+/* start section 2 */
+.sec2{
+    height: 900px;
+    position: relative;
+    text-align: center;
+}
+.sec2 .container-sec2{
+    width: 1400px;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+}
+.sec2 .graund-sec2{
+    width: 1000px;
+    position: absolute;
+    top: 8%;
+right: 150px;
+height: 500px;
+}
+.sec2 .three-divs{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.sec2 .three-divs h2{
+    color: rgb(103, 102, 101);
+}
+.sec2 .three-divs p{
+    font-size: 18px;
+    color: rgb(165, 164, 161);
+    line-height: 1.7;
+}
+
+.three-divs .super, .real, .Discounts{
+    width: 400px;
+    height: 290px;
+}
+.three-divs .super{
+    position: absolute;
+    left: 150px;
+    top:33px;
+}
+.three-divs .real{
+    position: absolute;
+    left: 562px;
+    top:222px
+}
+.three-divs .Discounts{
+    position: absolute;
+    right: 148px;
+    top:466px;
+}
+
+
+.container-sec2 .kudzoka{
+    position:relative;
+    top: 522px;
+    right: 390px;
+}
+.container-sec2 .kudzoka img{
+    width: 350px;
+}
+.container-sec2 .kudzoka p{
+    position: absolute;
+    top:80px;
+   right: 620px;
+   font-size: 25px;
+   color: white;
+}
+.container-sec2 h3{
+    position: absolute;
+    top:150px;
+   right: 590px;
+   color: white;
+   font-size: 40px;
+   text-transform: uppercase;
+}
+/* end section 2 */
+/* start section 3 */
+.sec3{
+    height: 900px;
+
+}
+.container-sec3{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-sec3 .img1{
+width: 245px;
+height: 265px;
+margin-top: 400px;
+}
+.container-sec3 .img2{
+    width: 635px;
+    height: 633px;
+    margin-top: 120px;
+    padding: 20px;
+}
+.container-sec3 h4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(131, 129, 129);
+}
+.container-sec3 p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(193, 191, 189);
+
+}
+.container-sec3 .img3{
+    width: 275px;
+    height: 275px;
+    margin-top: 400px;
+}
+/* end section 3 */
+/* start footer */
+footer{
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+.background2{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+}
+.persons{
+    position: absolute;
+    width: 600px;
+    right: 140px;
+    bottom:0;
+}
+footer .text-footer{
+    width: 335px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    top:65%
+    
+  
+}
+.container-text{
+    display: flex;
+    justify-content: space-between;
+}
+footer .button-footer{
+  position: relative;
+
+}
+footer .button-img{
+    width: 150px;
+    height: 60px;
+}
+footer .text1{
+    position: absolute;
+    left: 3%;
+    bottom: 76%;
+    display: flex;
+    align-items: center;
+}
+
+footer .text2{
+    position: absolute;
+    left: 60%;
+    bottom: 76%;
+    display: flex;
+    align-items: center;
+}
+footer .text-footer p{
+    font-size: 12px;
+    color: black;
+}
+footer .text-footer h5{
+    font-size: 18px;
+}
+footer .text-footer .icons{
+    display: flex;
+    
+}
+.text-footer .icons img{
+    margin: 20px 10px;
+}
+.text-footer .links a{
+    margin: 7px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
